@@ -350,6 +350,20 @@ section{
     border-color: rgb(163, 163, 163);
     background: rgb(17, 57, 0);
   }
+
+  .color-container .project-title {
+    color: white;
+  }
+
+  .color-container .project-btn {
+    border-color: white; 
+    color: white;
+  }
+  
+  .color-container .project-btn:hover {
+    background: white; 
+    color: rgb(17, 57, 0);
+  }
   
   .project-img {
     border-radius: 2rem;
@@ -371,6 +385,31 @@ section{
     right: 0rem;
     padding-right: 1rem;
     height: 3rem;
+  }
+
+  /* Certifications */
+  #certifications {
+    position: relative;
+    margin-top: 5rem;
+  }
+  
+  .cert-list {
+    list-style: none;
+    text-align: left;
+    padding: 2rem;
+  }
+  
+  .cert-list li {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .cert-list li::before {
+    content: '🏆'; 
+    font-size: 1.5rem;
   }
 
   /* contact section */
